@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khali Music Promo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .hero {
+      background: linear-gradient(to right, #111, #444);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .song-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+    .song {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    audio {
+      width: 100%;
+      margin-top: 0.5rem;
+    }
+    .upload-form {
+      background: #fff;
+      padding: 1rem;
+      margin: 2rem 1rem;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: #aaa;
+    }
+    .links {
+      margin-top: 1rem;
+    }
+    .links a {
+      margin-right: 1rem;
+      color: #0a84ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Khali Music Promo</h1>
+    <p>Support and promote hip-hop artists – powered by Bernard Khalifa</p>
+  </header>
+
+  <div class="hero">
+    <h2>Spotlight Artist: Bernard Khalifa</h2>
+    <p>Exclusive hits dropping here first.</p>
+  </div>
+
+  <section class="song-list">
+    <div class="song">
+      <h3>Street Kings</h3>
+      <p>By Bernard Khalifa</p>
+      <audio controls>
+        <source src="street_kings.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+      </audio>
+    </div>
+
+    <div class="song">
+      <h3>Real Hustle</h3>
+      <p>By Bernard Khalifa</p>
+      <audio controls>
+        <source src="real_hustle.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+      </audio>
+    </div>
+  </section>
+
+  <section class="upload-form">
+    <h2>Submit Your Track</h2>
+    <p>Send your song to be featured. We’ll review and upload for you.</p>
+    <form>
+      <label>Artist Name:</label><br>
+      <input type="text" placeholder="Your name"><br><br>
+      <label>Track Name:</label><br>
+      <input type="text" placeholder="Track title"><br><br>
+      <label>Upload MP3 (submit via WhatsApp)</label><br>
+      <input type="file" accept="audio/mp3"><br><br>
+      <button type="button">Submit via WhatsApp</button>
+    </form>
+  </section>
+
+  <div class="links" style="text-align:center;">
+    <a href="https://wa.me/26772927417" target="_blank">WhatsApp</a>
+    <a href="https://facebook.com/bernard.khalifa" target="_blank">Facebook</a>
+    <a href="https://github.com/bernard497-debugger" target="_blank">GitHub</a>
+  </div>
+
+  <footer>
+    Khali Music Promo – MVP v1.0<br>
+    Powered by Bernard Khalifa
+  </footer>
+
+</body>
+</html>
